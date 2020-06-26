@@ -1,0 +1,18 @@
+siteTitle: Bloga
+siteTitleShort: Bloga
+siteTitleAlt: Generate your blog from git, twitter, instagram and more
+siteDescription: Generate your blog from git, twitter, instagram and more
+siteLogo: https://raw.githubusercontent.com/theowenyoung/theowenyoung.github.io/develop/static/logos/logo.png
+siteUrl: 'https://blog.owenyoung.com'
+pathPrefix: /
+siteRss: /rss.xml
+dateFromFormat: YYYY-MM-DD
+siteFBAppID: '1867376560066167'
+dateFormat: MMM Do, YYYY
+postsPerPage: 15
+userName: Bloga
+userLocation: ''
+userDescription: Generate your blog from git, twitter, instagram and more
+copyright: "copyright © ${{date.year}} ${{ config.siteTitle}}" # Copyright string for the footer of the website and RSS feed.
+themeColor: "#c62828" # Used for setting manifest and progress theme colors.
+backgroundColor: "#e0e0e0" # Used for setting manifest background color.

@@ -1,0 +1,38 @@
+sources:
+  - provider: twitter
+  - provider: git
+
+options:
+  - type: object
+    name: siteMetadata
+    label: Site Metadata
+    options:
+      - type: string
+        default: Bloga
+        name: siteTitle
+        label: Site Title
+      - type: string
+        default: https://test.com
+        name: site_ url
+        label: Site URL
+  - type: plugin-options
+    plugin: gatsby-plugin-google-analytics
+    label: Gatsby Plugin Google Analytics
+    options:
+      - type: string
+        name: trackingId
+        label: Tracking Id
+  - type: plugin-options
+    plugin: gatsby-plugin-google-analytics
+    label: Gatsby Plugin Google Analytics
+    options:
+      - type: string
+        name: trackingId
+        label: Tracking Id
+  - type: plugin-options
+    plugin: gatsby-plugin-sitemap
+    label: gatsby plugin sitemap
+    options:
+      - type: string
+        name: name
+        label: Name
